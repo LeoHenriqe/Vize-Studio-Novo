@@ -6,7 +6,7 @@ function enviarParaWhatsApp() {
     var numeroWhatsApp = "+556293420107"; // Substitua pelo seu número de WhatsApp
 
     // Montar a mensagem
-    var mensagem = "Olá, gostaria de saber mais sobre " + opcaoSelecionada;
+    var mensagem = "Olá, gostaria de saber mais sobre " + opcaoSelecionada + "!";
 
     // Montar o link do WhatsApp com a mensagem
     var linkWhatsApp = "https://wa.me/" + numeroWhatsApp + "?text=" + encodeURIComponent(mensagem);
