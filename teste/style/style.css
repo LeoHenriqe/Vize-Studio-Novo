@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bradesco Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(35, 35, 35);
+}
+
+header .navbar {
+    background-color: #D5F95A !important;
+    height: 100px;
+}
+
+.navbar-brand img {
+    width: 80px;
+}
+
+.navbar-nav a {
+    font-size: 23px;
+    font-weight: 500;
+    margin: 15px;
+}
+
+#insta {
+    left: 95%;
+    top: -10px;
+    position: absolute;
+    background-color: black;
+    height: 90px;
+    width: 60px;
+    align-items: end;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+#insta i {
+    color: #D5F95A;
+    font-size: 2.5rem;
+}
+
+#first-sec img {
+    width: 100%;
+    height: 800px;
+}
+
+#second-sec .txt {
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-image: url(/images/&.svg);
+}
+
+#second-sec .txt h1 {
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    font-weight: 400;
+    margin: -5px;
+    padding: 0;
+}
+
+#second-sec .sobre p {
+    color: white;
+    font-size: 2.1em;
+    font-weight: 100;
+    text-align: justify;
+}
+
+#portifolio {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#img-titulo {
+    width: 160px;
+    text-align: center;
+    z-index: -1000;
+    position: relative;
+}
+
+#portifolio p {
+    margin-top: -80px;
+    color: white;
+    font-size: 2.5em;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgba(35, 35, 35, 0.99);
+    box-shadow: 0px -25px 12px 0px rgba(35, 35, 35, 0.98);
+}
+
+#flex-box .grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#flex-box .grid .box p{
+    background-color: white;
+    font-size: 2em;
+}
+
+#flex-box .grid .box{
+    text-align: center;
+    color: rgb(35, 35, 35);
+    margin: 40px;
+}
+
+#flex-box .grid img{
+    width: 250px;
+    height: 300px;
+}
+
+#projeto .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projeto .container .txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 110px;
+}
+
+#projeto img{
+    margin-top: -100px;
+    width: 18%;
+    position: absolute;
+    z-index: -100;
+    left: 50%;
+}
+
+#projeto p{
+    color: white;
+    font-size: 4em;
+    align-items: center;
+    text-align: center;
+    background-position: right;
+}
+
+#projeto .form-box {
+    text-align: center;
+    background-color: rgb(62, 62, 62);
+    width: 50%;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#projeto .form-box form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#projeto .form-box form select{
+    width: 550px;
+    font-size: 2.2em;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+#projeto .form-box form button{
+    background-color: rgb(62, 62, 62);
+    border: none;
+    color: #D5F95A;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+footer .box-footer{
+    background-color: #D5F95A;
+    text-align: center;
+    font-size: 1.3em;
+    height: 50px;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+
+@media screen and (max-width: 440px) {
+    header .navbar {
+        height: auto;
+    }
+
+    #insta {
+        position: inherit;
+        height: 60px;
+    }
+}
