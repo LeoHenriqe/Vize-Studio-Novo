@@ -99,36 +99,36 @@ header .navbar {
     justify-content: center;
 }
 
-#flex-box .grid .box p{
+#flex-box .grid .box p {
     background-color: white;
     font-size: 2em;
 }
 
-#flex-box .grid .box{
+#flex-box .grid .box {
     text-align: center;
     color: rgb(35, 35, 35);
     margin: 40px;
 }
 
-#flex-box .grid img{
+#flex-box .grid img {
     width: 250px;
     height: 300px;
 }
 
-#projeto .container{
+#projeto .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#projeto .container .txt{
+#projeto .container .txt {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 110px;
 }
 
-#projeto img{
+#projeto img {
     margin-top: -100px;
     width: 18%;
     position: absolute;
@@ -136,7 +136,7 @@ header .navbar {
     left: 50%;
 }
 
-#projeto p{
+#projeto p {
     color: white;
     font-size: 4em;
     align-items: center;
@@ -155,21 +155,21 @@ header .navbar {
     justify-content: center;
 }
 
-#projeto .form-box form{
+#projeto .form-box form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-#projeto .form-box form select{
+#projeto .form-box form select {
     width: 550px;
     font-size: 2.2em;
     padding: 10px;
     margin-top: 40px;
 }
 
-#projeto .form-box form button{
+#projeto .form-box form button {
     background-color: rgb(62, 62, 62);
     border: none;
     color: #D5F95A;
@@ -177,13 +177,29 @@ header .navbar {
     margin-top: 10px;
 }
 
-footer .box-footer{
+footer .box-footer {
     background-color: #D5F95A;
     text-align: center;
     font-size: 1.3em;
     height: 50px;
     padding: 10px;
     margin-top: 100px;
+}
+
+#rodape-img{
+    width: 100%;
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: -130px;
+    background-attachment: fixed;
+    z-index: -100;
+}
+
+#svg-5{
+    width: 10%;
+    padding: 0;
+    margin: 0;
+    float: right;
 }
 
 
