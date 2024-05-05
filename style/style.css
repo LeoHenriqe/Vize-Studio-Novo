@@ -77,8 +77,9 @@ header .navbar {
 }
 
 #img-titulo {
-    width: 160px;
-    text-align: center;
+    width: 10%;
+    align-items: center;
+    left: 5%;
     z-index: -1000;
     position: relative;
 }
@@ -186,7 +187,7 @@ footer .box-footer {
     margin-top: 100px;
 }
 
-#rodape-img{
+#rodape-img {
     width: 100%;
     text-align: center;
     margin-top: 110px;
@@ -195,11 +196,12 @@ footer .box-footer {
     z-index: -100;
 }
 
-#svg-5{
+#svg-5 {
     width: 10%;
     padding: 0;
     margin: 0;
-    float: right;
+    background-color: red;
+    position: absolute;
 }
 
 
