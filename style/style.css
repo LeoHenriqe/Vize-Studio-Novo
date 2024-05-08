@@ -262,3 +262,9 @@ body {
     z-index: -100;
 }
 
+
+@media screen and (max-width: 1300px) {
+    .instagram .container .txt p{
+        font-size: 1.7rem;
+    }
+}

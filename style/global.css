@@ -77,3 +77,9 @@ footer .box-footer img{
         margin-left:  0;
     }
 }
+
+@media screen and (max-width: 1300px) {
+    .navbar-nav{
+        margin-left:  350px;
+    }
+}
