@@ -1,119 +1,191 @@
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Bradesco Sans', sans-serif;
-}
+@import url(/style/global.css);
 
 body {
     background-color: rgb(35, 35, 35);
 }
 
-header .navbar {
-    background-color: #D5F95A !important;
-    height: 100px;
-}
-
-.navbar-brand img {
-    width: 80px;
-}
-
-.navbar-nav a {
-    font-size: 23px;
-    font-weight: 500;
-    margin: 15px;
-}
-
-#insta {
-    left: 95%;
-    top: -10px;
-    position: absolute;
-    background-color: black;
-    height: 90px;
-    width: 60px;
-    align-items: end;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-}
-
-#insta i {
-    color: #D5F95A;
-    font-size: 2.5rem;
+#first-sec{
+    background-image: url(/images/camera.jpeg);
+    height: 800px;
+    background-position: center;
 }
 
 #first-sec img {
     width: 100%;
-    height: 800px;
+    height: 700px;
+}
+
+#first-sec #img-first{
+    width: 50%;
+}
+
+#first-sec .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#first-sec h1{
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 200;
+    align-items: center;
+}
+
+#first-sec .txt-first{
+    width: 40%;
+}
+
+#first-sec .txt-first div{
+    background-color: #D5F95A;
+    width: 180px;
+    height: 3px;
+    margin: 30px 0;
+}
+
+#first-sec p{
+    text-align: justify;
+    line-height: 25px;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+#second-sec .container{
+    display: flex;
+}
+
+#second-sec{
+    padding: 40px;
+    background-color: white;
 }
 
 #second-sec .txt {
-    height: 400px;
+    min-height: 350px;
+    min-width: 30%;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    width: 30%;
-    background-repeat: no-repeat;
     background-image: url(/images/&.svg);
-}
-
-#second-sec .txt h1 {
-    color: rgb(255, 255, 255);
-    font-size: 5rem;
-    font-weight: 400;
-    margin: -5px;
-    padding: 0;
-}
-
-#second-sec .sobre p {
-    color: white;
-    font-size: 2.1em;
-    font-weight: 100;
-    text-align: justify;
-}
-
-#portifolio {
-    margin-top: 100px;
-    text-align: center;
-}
-
-#img-titulo {
-    width: 10%;
-    align-items: center;
-    left: 5%;
-    z-index: -1000;
-    position: relative;
-}
-
-#portifolio p {
-    margin-top: -80px;
-    color: white;
-    font-size: 2.5em;
-    font-weight: 400;
-    text-align: center;
-    background-color: rgba(35, 35, 35, 0.99);
-    box-shadow: 0px -25px 12px 0px rgba(35, 35, 35, 0.98);
-}
-
-#flex-box .grid {
-    display: flex;
-    align-items: center;
+    background-repeat: no-repeat;
     justify-content: center;
 }
 
-#flex-box .grid .box p {
+#second-sec .txt h1 {
+    color: rgb(12, 12, 12);
+    font-size: 4.4rem;
+    font-weight: 600;
+    padding: 0;
+}
+
+#second-sec .sobre{
+    padding: 10px;
+    align-items: center;
+    display: flex;
+}
+
+#second-sec .sobre p {
+    color: rgb(12, 12, 12);
+    line-height:  36px;
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.galeria .flex{
+    display: flex;
+    width: 100%;
+    align-items:  center;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.galeria .flex .linha{
+    width: 80%;
+    height: 1px;
     background-color: white;
-    font-size: 2em;
 }
 
-#flex-box .grid .box {
-    text-align: center;
-    color: rgb(35, 35, 35);
-    margin: 40px;
+.galeria .flex p{
+    font-weight: 100;
+    font-size: 4rem;
+    color: white;
 }
 
-#flex-box .grid img {
-    width: 250px;
-    height: 300px;
+.galeria .flexbox .box img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.galeria .flexbox .box{
+    width:  100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.galeria .flexbox .box .txt{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.galeria .flexbox .box .txt-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: -150px;
+    padding: 10px 0;
+}
+
+.galeria .flexbox .box .txt-2 img{
+    height: 89%;
+}
+
+.galeria .flexbox .box .txt-1{
+    padding: 50px 30px;
+}
+
+.galeria .flexbox .box .txt h5,.txt-1 h5, .txt-2 h5{
+    color: white;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.galeria .flexbox .box .txt p,.txt-1 p, .txt-2 p{
+    color: white;
+}
+
+.instagram .container{
+    padding: 40px;
+}
+
+.instagram .container a{
+    text-decoration: none;
+}
+
+.instagram .container .txt{
+    background-color: gray;
+    width: 100%;
+    height:  100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    object-fit: cover;
+}
+
+.instagram .container .txt img{
+    width: 40%;
+    margin-right: 30px;
+}
+
+.instagram .container .txt p{
+    width: 100%;
+    color: white;
+    font-size: 2rem;
+    font-weight: 100;
+    margin-left: 30px;
+    margin-top: 10px;
 }
 
 #projeto .container {
@@ -126,7 +198,7 @@ header .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 110px;
+    padding: 100px;
 }
 
 #projeto img {
@@ -147,9 +219,9 @@ header .navbar {
 
 #projeto .form-box {
     text-align: center;
-    background-color: rgb(62, 62, 62);
+    background-color: rgb(255, 255, 255);
     width: 50%;
-    height: 200px;
+    height: 250px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -167,24 +239,18 @@ header .navbar {
     width: 550px;
     font-size: 2.2em;
     padding: 10px;
-    margin-top: 40px;
+    background-color: rgb(26, 26, 26);
+    color: white;
 }
 
 #projeto .form-box form button {
-    background-color: rgb(62, 62, 62);
     border: none;
-    color: #D5F95A;
-    font-size: 2em;
+    color: rgb(75, 75, 75);
+    font-size: 1.7em;
+    font-weight: 500;
+    padding: 5px;
     margin-top: 10px;
-}
-
-footer .box-footer {
-    background-color: #D5F95A;
-    text-align: center;
-    font-size: 1.3em;
-    height: 50px;
-    padding: 10px;
-    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
 }
 
 #rodape-img {
@@ -196,22 +262,3 @@ footer .box-footer {
     z-index: -100;
 }
 
-#svg-5 {
-    width: 10%;
-    padding: 0;
-    margin: 0;
-    background-color: red;
-    position: absolute;
-}
-
-
-@media screen and (max-width: 440px) {
-    header .navbar {
-        height: auto;
-    }
-
-    #insta {
-        position: inherit;
-        height: 60px;
-    }
-}
