@@ -324,6 +324,7 @@ body {
 
     #second-sec .txt h1 {
         font-size: 1.5rem;
+        line-height: 15px;
     }
 
     #second-sec .sobre p {
