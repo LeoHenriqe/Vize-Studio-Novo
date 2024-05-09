@@ -275,18 +275,35 @@ body {
 @media screen and (max-width: 440px) {
     #first-sec {
         height: 550px;
+        
     }
 
     #first-sec h1 {
         font-size: 1.6rem;
+        text-align: center;
+    }
+
+    #first-sec p {
+        text-align: center;
     }
 
     #first-sec .txt-first {
         width: 100%;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #first-sec .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     #first-sec #img-first {
-        display: none;
+        width: 40%;
+        height: 100%;
     }
 
     #second-sec .container {
@@ -310,22 +327,16 @@ body {
         line-height: 25px;
     }
 
-    .galeria .flex {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
-    }
-
     .galeria .flex p {
         font-size: 2.5rem;
     }
 
-    .galeria .flexbox .box {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
+    .galeria .flexbox .box .txt h5, .txt-1 h5{
+        font-size: 1rem;
+    }
+
+    .galeria .flexbox .box .txt p, .txt-1 p{
+        font-size: 0.5rem;
     }
 
     .galeria .flexbox .box .txt-2 {
@@ -334,11 +345,8 @@ body {
     }
 
     .galeria .flexbox .box .txt-2 img {
-        height: 100%;
-    }
-
-    .galeria .flexbox .box .txt-1 {
-        padding: 50px 30px;
+        height: 70%;
+        margin-top: 17px;
     }
     
     .instagram .container .txt {

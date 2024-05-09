@@ -88,21 +88,17 @@ footer .box-footer img {
         margin-left: 0;
     }
 
-    footer .box-footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+    footer .box-footer .menu{
+        margin-left: -20px;
+        margin-right: 20px;
     }
 
-    footer .box-footer .menu{
-        margin-left: -30px;
+    footer .box-footer .menu li{
+        font-size: 1rem;
     }
 
     footer .endereco {
         width: 100%;
-        text-align: center;
     }
 
     footer .endereco h1,
@@ -110,19 +106,19 @@ footer .box-footer img {
         width: 100%;
         margin: 0;
         padding: 0;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 500;
     }
 
     footer .endereco p {
         padding: 0;
         margin: 0;
-        text-align: center;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     footer .box-footer img {
-        width: 120px;
+        width: 20%;
+        object-fit: contain;
     }
 
     #rodape-img {
